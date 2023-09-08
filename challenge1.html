@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Gunakan Bootstrap 5.0.2 dan Popper.js sesuai dengan Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/extern.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-5-strong">
+        <div class="container-fluid mt-1">
+            <div class="header-logo ms-4 ps-3">
+                <a href="#"><img src="./asset/logo.svg" alt="" class="img-fluid"></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse nav-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="d-lg-none ">
+                        <div class="d-flex justify-content-between m-2">
+                            <div class="bcr_item"><strong>BCR</strong></div>
+                            <div class="bcr_item"><img id="close-button" class="navbar-nav-toggler" src="./asset/silang.svg"
+                                    alt=""></div>
+                        </div>
+                    </li>
+                    <li class="nav-item mb-1">
+                        <a class="nav-item-link" aria-current="page" href="#">Our Service</a>
+                    </li>
+                    <li class="nav-item mb-1">
+                        <a class="nav-item-link" href="#">Why Us?</a>
+                    </li>
+                    <li class="nav-item mb-1">
+                        <a class="nav-item-link" href="#">Testimonial</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a class="nav-item-link" href="#">FAQ</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-item-link register" href="#"><span class="register">Register</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="header row" data-aos="fade-right">
+        <div class="header-detail col ms-5 mt-5">
+            <h1>Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1>
+            <p>
+                Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas <br>
+                terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu <br>
+                untuk sewa mobil selama 24 jam.
+            </p>
+            <a href="" class="register">Mulai Sewa Mobil</a>
+        </div>
+        <div class="header-image col"><img class="image img-fluid" src="./asset/mobil.svg" alt=""></div>
+    </div>
+
+    <div class="our-service mt-5 row" data-aos="fade-right">
+        <div class="our-service-image col">
+            <img class="img-fluid ms-5 p-5" src="./asset/orang.svg" alt="">
+        </div>
+        <div class="our-service-detail col ms-5 mt-5">
+            <h1 class="pe-2"> Best Car Rental for any kind of trip in (Lokasimu)!</h1>
+            <p class="pe-5">
+                Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga lebih murah dibandingkan yang lain,
+                kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding, meeting,
+                dll.
+            </p>
+            <p><img src="./asset/icon.svg" alt="">&nbsp;&nbsp;Sewa Mobil Dengan Supir di Bali 12 Jam</p>
+            <p><img src="./asset/icon.svg" alt="">&nbsp;&nbsp;Sewa Mobil Lepas Kunci di Bali 24 Jam</p>
+            <p><img src="./asset/icon.svg" alt="">&nbsp;&nbsp;Sewa Mobil Jangka Panjang Bulanan</p>
+            <p><img src="./asset/icon.svg" alt="">&nbsp;&nbsp;Gratis Antar - Jemput Mobil di Bandara</p>
+            <p><img src="./asset/icon.svg" alt="">&nbsp;&nbsp;Layanan Airport Transfer / Drop In Out</p>
+        </div>
+    </div>
+    <div class="why-us m-3" data-aos="fade-right">
+        <div class="why-us-header m-4">
+            <h1>Why Us?</h1>
+            <p>Mengapa harus pilih Binar Car Rental?</p>
+        </div>
+        <div class="why-us-detail row ms-2">
+            <div class="col m-1 ps-2">
+                <div class="card " style="width:18rem;">
+                    <div class="card-body">
+                        <img src="./asset/like.svg" alt="" class="pt-2 pb-2 img-fluid">
+                        <h5 class="card-title pb-1 pt-2">Mobil Lengkap</h5>
+                        <p class="card-text">Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan terawat</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col m-1 ps-2">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="./asset/harga.svg" alt="" class="pt-2 pb-2 img-fluid">
+                        <h5 class="card-title pb-1 pt-2">Harga Murah</h5>
+                        <p class="card-text">Harga murah dan bersaing, bisa bandingkan harga kami dengan rental mobil
+                            lain</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col m-1 ps-2">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="./asset/jam.svg" alt="" class="pt-2 pb-2 img-fluid">
+                        <h5 class="card-title pb-1 pt-2">Layanan 24 Jam</h5>
+                        <p class="card-text">Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga tersedia di
+                            akhir minggu</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col m-1 ps-2">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="./asset/sopir.svg" alt="" class="pt-2 pb-2">
+                        <h5 class="card-title pb-1 pt-2">Sopir Profesional</h5>
+                        <p class="card-text">Sopir yang profesional, berpengalaman, jujur, ramah dan selalu tepat waktu
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="testimoni mt-5 pt-5" data-aos="fade-right">
+        <div class="testimoni-header text-center">
+            <h1>Testimonial</h1>
+            <p>Berbagai review positif dari para pelanggan kami</p>
+        </div>
+        <div class="overflow">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+
+                        <div class="content4__item-2">
+                            <div class="content4__item-2--kotak">
+                                <div class="col-md-2 d-flex align-items-center ml-2 p-3">
+                                    <img src="./asset/testimoni2.svg" alt="" class="testimoni rounded-circle">
+                                </div>
+                                <div class="col-md-9 d-flex flex-column align-items-start mt-4 p-4 text">
+                                    <img src="./asset/rate.svg" alt="" class="rate"><br>
+                                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem
+                                        ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                                    <b>Amellia 31, Bromo</b>
+                                </div>
+                            </div>
+                            <div class="content4__item-2--kotak">
+                                <div class="col-md-2 d-flex align-items-center ml-2 p-3">
+                                    <img src="./asset/testimoni1.svg" alt="" class="testimoni ">
+                                </div>
+                                <div class="col-md-9 d-flex flex-column align-items-start mt-4 p-4 text">
+                                    <img src="./asset/rate.svg" alt="" class="rate"><br>
+                                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem
+                                        ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                                    <b>John Dee 32, Bromo</b>
+                                </div>
+                            </div>
+                            <div class="content4__item-2--kotak">
+                                <div class="col-md-2 d-flex align-items-center ml-2 p-3">
+                                    <img src="./asset/testimoni2.svg" alt="" class="testimoni ">
+                                </div>
+                                <div class="col-md-9 d-flex flex-column align-items-start mt-4 p-4 text">
+                                    <img src="./asset/rate.svg" alt="" class="rate"><br>
+                                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem
+                                        ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                                    <b>Aulia Shintya 32, Bromo</b>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- carosel-2 -->
+                    <div class="carousel-item">
+                        <div class="content4__item-2">
+                            <div class="content4__item-2--kotak">
+                                <div class="col-md-2 d-flex align-items-center ml-2 p-3">
+                                    <img src="./asset/testimoni1.svg" alt="" class="testimoni ">
+                                </div>
+                                <div class="col-md-9 d-flex flex-column align-items-start mt-4 p-4 text">
+                                    <img src="./asset/rate.svg" alt="" class="rate"><br>
+                                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem
+                                        ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                                    <b>John Dee 32, Bromo</b>
+                                </div>
+                            </div>
+                            <div class="content4__item-2--kotak">
+                                <div class="col-md-2 d-flex align-items-center ml-2 p-3">
+                                    <img src="./asset/testimoni2.svg" alt="" class="testimoni ">
+                                </div>
+                                <div class="col-md-9 d-flex flex-column align-items-start mt-4 p-4 text">
+                                    <img src="./asset/rate.svg" alt="" class="rate"><br>
+                                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem
+                                        ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                                    <b>Aulia Shintya 32, Bromo</b>
+                                </div>
+                            </div>
+                            <div class="content4__item-2--kotak">
+                                <div class="col-md-2 d-flex align-items-center ml-2 p-3">
+                                    <img src="./asset/testimoni2.svg" alt="" class="testimoni  rounded-circle">
+                                </div>
+                                <div class="col-md-9 d-flex flex-column align-items-start mt-4 p-4 text">
+                                    <img src="./asset/rate.svg" alt="" class="rate"><br>
+                                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem
+                                        ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                                    <b>Amellia 31, Bromo</b>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+
+                        <div class="content4__item-2">
+                            <div class="content4__item-2--kotak">
+                                <div class="col-md-2 d-flex align-items-center ml-2 p-3">
+                                    <img src="./asset/testimoni2.svg" alt="" class="testimoni ">
+                                </div>
+                                <div class="col-md-9 d-flex flex-column align-items-start mt-4 p-4 text">
+                                    <img src="./asset/rate.svg" alt="" class="rate"><br>
+                                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem
+                                        ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                                    <b>Aulia Shintya 32, Bromo</b>
+                                </div>
+                            </div>
+                            <div class="content4__item-2--kotak">
+                                <div class="col-md-2 d-flex align-items-center ml-2 p-3">
+                                    <img src="./asset/testimoni2.svg" alt="" class="testimoni rounded-circle">
+                                </div>
+                                <div class="col-md-9 d-flex flex-column align-items-start mt-4 p-4 text">
+                                    <img src="./asset/rate.svg" alt="" class="rate"><br>
+                                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem
+                                        ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                                    <b>Amellia 31, Bromo</b>
+                                </div>
+                            </div>
+                            <div class="content4__item-2--kotak">
+                                <div class="col-md-2 d-flex align-items-center ml-2 p-3">
+                                    <img src="./asset/testimoni1.svg" alt="" class="testimoni ">
+                                </div>
+                                <div class="col-md-9 d-flex flex-column align-items-start mt-4 p-4 text">
+                                    <img src="./asset/rate.svg" alt="" class="rate"><br>
+                                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem
+                                        ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                                    <b>John Dee 32, Bromo</b>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <div class="sewa text-center" data-aos="fade-right">
+        <div class="sewa-detail">
+            <h1>Sewa Mobil di (Lokasimu) Sekarang</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>
+                tempor incididunt ut labore et dolore magna aliqua. </p>
+            <a href="" class="btn btn-success">Mulai Sewa Mobil</a>
+        </div>
+    </div>
+    <div class="faq row m-5 pt-5" data-aos="fade-right">
+        <div class="faq-header col">
+            <h1>Frequently Asked Question</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore eveniet minima, provident blanditiis
+                exercitationem asperiores nulla velit doloremque distinctio tempore.</p>
+        </div>
+        <div class="faq-detail col-md-6">
+            <div id="accordion">
+                <div class="card mb-2">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0 d-flex justify-content-between align-items-center">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                Apa saja syarat yang dibutuhkan?
+                            </button>
+                            <div class="ml-auto">
+                                <img src="./asset/iconAccordion.svg" alt="">
+                            </div>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                            probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <!-- ...Card 2 dan Card 3 ... -->
+                <div class="card mb-2">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0 d-flex justify-content-between align-items-center">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo"
+                                aria-expanded="true" aria-controls="collapseTwo">
+                                Berapa hari minimal sewa mobil lepas kunci?
+                            </button>
+                            <div class="ml-auto">
+                                <img src="./asset/iconAccordion.svg" alt="">
+                            </div>
+                        </h5>
+                    </div>
+
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                            probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0 d-flex justify-content-between align-items-center">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree"
+                                aria-expanded="true" aria-controls="collapseThree">
+                                Berapa hari sebelumnya sabaiknya booking sewa mobil?
+                            </button>
+                            <div class="ml-auto">
+                                <img src="./asset/iconAccordion.svg" alt="">
+                            </div>
+                        </h5>
+                    </div>
+
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                            probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-header" id="headingFour">
+                        <h5 class="mb-0 d-flex justify-content-between align-items-center">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour"
+                                aria-expanded="true" aria-controls="collapseFour">
+                                Apakah Ada biaya antar-jemput?
+                            </button>
+                            <div class="ml-auto">
+                                <img src="./asset/iconAccordion.svg" alt="">
+                            </div>
+                        </h5>
+                    </div>
+
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                            probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-2">
+                    <div class="card-header" id="headingFive">
+                        <h5 class="mb-0 d-flex justify-content-between align-items-center">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFive"
+                                aria-expanded="true" aria-controls="collapseFive">
+                                Bagaimana jika terjadi kecelakaan?
+                            </button>
+                            <div class="ml-auto">
+                                <img src="./asset/iconAccordion.svg" alt="">
+                            </div>
+                        </h5>
+                    </div>
+
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                            probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer row m-3" data-aos="fade-right">
+        <div class="footer-adress col m-2">
+            <ul>
+                <li>Jalan Suroyo No. 161 Mayangan Kota
+                    lirobolonggo 672000
+                </li>
+                <li>binarcarrental@gmail.com</li>
+                <li>081-233-334-808</li>
+            </ul>
+        </div>
+        <div class="footer-menu col m-2">
+            <ul>
+                <li><strong>Our Services</strong></li>
+                <li><strong>Why Us</strong></li>
+                <li><strong>Testimonial</strong></li>
+                <li><strong>FAQ</strong></li>
+            </ul>
+        </div>
+        <div class="footer-sosmed col m-2">
+            <ul>
+                <li>
+                    <p>Connect with us</p>
+                    <img src="./asset/fb.svg" alt="" class="mr-2">
+                    <img src="./asset/ig.svg" alt="" class="mr-2">
+                    <img src="./asset/twitter.svg" alt="" class="mr-2">
+                    <img src="./asset/mail.svg" alt="" class="mr-2">
+                    <img src="./asset/twitch.svg" alt="" class="mr-2">
+                </li>
+            </ul>
+        </div>
+        <div class="footer-logo col m-2">
+            <ul>
+                <li>
+                    <p>Copyright Binar 2022</p>
+                    <img src="./asset/logo.svg" alt="">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <script>
+        AOS.init();
+        $(document).ready(function () {
+            // Toggle menu ketika toggler diklik
+            $('.navbar-toggler').click(function () {
+                var target = $($(this).attr('data-target'));
+                if (target.hasClass('show')) {
+                    target.removeClass('show'); // Hapus kelas 'show'
+                } else {
+                    target.addClass('show'); // Tambahkan kelas 'show'
+                }
+            });
+    
+            // Menutup menu jika tautan di dalam menu diklik
+            $('.nav-link').click(function () {
+                $('.navbar-collapse').removeClass('show'); // Hapus kelas 'show'
+            });
+    
+            // Menutup menu jika gambar silang ditekan
+            $('#close-button').click(function () {
+                $('.navbar-collapse').removeClass('show'); // Hapus kelas 'show'
+            });
+        });
+    </script>
+    
+
+
+
+</body>
+
+</html>
